@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json.schemastore.org/swcrc",
+  "sourceMaps": true,
+  "minify": true,
+  "isModule": true,
+  "module": {
+    "type": "es6",
+    "strict": true
+  },
+  "jsc": {
+    "parser": {
+      "syntax": "typescript",
+      "tsx": true,
+      "dynamicImport": true
+    },
+    "transform": {
+      "react": {
+        "runtime": "automatic"
+      }
+    }
+  }
+}
